@@ -1,4 +1,4 @@
-# macOS 유틸리티
+# macOS 개발 환경 세팅
 
 ## 패키지 매니저
 ### 1. Homebrew
