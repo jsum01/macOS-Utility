@@ -7,6 +7,10 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 ```bash
+xcode-select --install
+```
+
+```bash
  brew install wget
 ```
 
@@ -23,11 +27,62 @@ brew install --cask google-chrome
 ### CPU 상태 확인
 RunCat: https://apps.apple.com/kr/app/runcat/id1429033973?mt=12
 ### 배터리 성능 확인 및 관리
-Aldente: https://apphousekitchen.com/pricing/
+Aldente
+```bash
+brew install --cask aldente
+```
+### 클리너
+Clean My Mac
+```bash
+brew install --cask cleanmymac
+```
 
 
 ## 화면 분할
-- Magnet: https://apps.apple.com/us/app/magnet/id441258766?mt=12
-- Rectangle: https://rectangleapp.com/
-- Tiles: https://freemacsoft.net/tiles/
+Rectangle
+  ```bash
+  brew install --cask rectangle
+  ```
+Tiles
+  ```bash
+  brew install --cask tiles
+  ```
 
+## IDE
+VSCode
+```bash
+brew install --cask visual-studio-code
+```
+
+Intellij
+```bash
+brew install --cask intellij-idea
+```
+
+Pycharm
+```bash
+brew install --cask pycharm
+```
+Android Studio
+```bash
+brew install --cask android-studio
+```
+
+### Framework
+Node.js
+```bash
+brew install node
+```
+React Native CLI
+```bash
+brew install react-native-cli
+```
+Flutter SDK
+```bash
+brew install --cask flutter
+```
+### Compiler
+gcc/g++
+```bash
+brew install gcc
+```
