@@ -15,6 +15,7 @@ xcode-select --install
 ```
 
 ### 2. Homebrew Cask
+앱스토어에 없는 프로그램을 brew를 통해 설치 가능함
 2-1 cask 설치하기
 ```bash
 brew install cask
@@ -23,6 +24,22 @@ brew install cask
 ```
 brew install --cask google-chrome
 ```
+
+### 3. Homebrew mas
+앱스토어에 있는 프로그램을 brew를 통해 설치 가능함
+3-1 mas 설치하기
+```bash
+brew install mas
+```
+3-2 사용법
+```bash
+// 아래 명령어를 통해 원하는 패키지를 검색하면 App ID가 뜬다.
+mas search kakaotalk
+
+// 아래 명령어를 통해 해당하는 앱을 설치한다.
+mas install {App ID}
+```
+
 ## 기기 관리
 ### CPU 상태 확인
 RunCat: https://apps.apple.com/kr/app/runcat/id1429033973?mt=12
