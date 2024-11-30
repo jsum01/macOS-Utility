@@ -16,6 +16,7 @@ xcode-select --install
 
 ### 2. Homebrew Cask
 앱스토어에 없는 프로그램을 brew를 통해 설치 가능함
+
 2-1 cask 설치하기
 ```bash
 brew install cask
@@ -27,6 +28,7 @@ brew install --cask google-chrome
 
 ### 3. Homebrew mas
 앱스토어에 있는 프로그램을 brew를 통해 설치 가능함
+
 3-1 mas 설치하기
 ```bash
 brew install mas
