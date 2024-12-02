@@ -46,73 +46,79 @@ mas install {App ID}
 ### CPU 상태 확인
 RunCat: https://apps.apple.com/kr/app/runcat/id1429033973?mt=12
 ### 배터리 성능 확인 및 관리
-Aldente
+**Aldente**
 ```bash
 brew install --cask aldente
 ```
 ### 클리너
-Clean My Mac
+**Clean My Mac**
 ```bash
 brew install --cask cleanmymac
 ```
 
 
 ## 화면 분할
-Rectangle
+**Rectangle**
   ```bash
   brew install --cask rectangle
   ```
-Tiles
+**Tiles**
   ```bash
   brew install --cask tiles
   ```
 
-## 단축키 및 키보드 셋업
-HotKey
- ```
- mas install 975890633
- // 975890633은 mas search hotkey를 했을 때 나오는 HotKey App의 고유번호
- ```
-Karabiner elements
- ```
- brew install --cask karabiner-elements
- ```
+## Mac Custom
+### 단축키 및 키보드 셋업
+**HotKey**
+  ```
+  mas install 975890633
+  // 975890633은 mas search hotkey를 했을 때 나오는 HotKey App의 고유번호
+  ```
+**Karabiner elements**
+```
+  brew install --cask karabiner-elements
+  ```
+### 터미널
+**iterm2**
+  ```
+  brew install iterm2
+  ```
 
 ## IDE
-VSCode
+**VSCode**
 ```bash
 brew install --cask visual-studio-code
 ```
 
-Intellij
+**Intellij**
 ```bash
 brew install --cask intellij-idea
 ```
 
-Pycharm
+**Pycharm**
 ```bash
 brew install --cask pycharm
 ```
-Android Studio
+**Android Studio**
 ```bash
 brew install --cask android-studio
 ```
 
 ### Framework
-Node.js
+**Node.js**
 ```bash
 brew install node
 ```
-React Native CLI
+**React Native CLI**
 ```bash
 brew install react-native-cli
 ```
-Flutter SDK
+**Flutter SDK**
 ```bash
 brew install --cask flutter
 ```
 ### Compiler
-gcc/g++
+**gcc/g++**
 ```bash
 brew install gcc
 ```
