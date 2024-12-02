@@ -27,7 +27,7 @@ brew install --cask google-chrome
 ```
 
 ### 3. Homebrew mas
-앱스토어에 있는 프로그램을 brew를 통해 설치 가능함
+**앱스토어**에 있는 프로그램을 brew를 통해 설치 가능함
 
 3-1 mas 설치하기
 ```bash
@@ -66,6 +66,17 @@ Tiles
   ```bash
   brew install --cask tiles
   ```
+
+## 단축키 및 키보드 셋업
+HotKey
+ ```
+ mas install 975890633
+ // 975890633은 mas search hotkey를 했을 때 나오는 HotKey App의 고유번호
+ ```
+Karabiner elements
+ ```
+ brew install --cask karabiner-elements
+ ```
 
 ## IDE
 VSCode
