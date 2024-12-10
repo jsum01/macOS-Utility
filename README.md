@@ -121,9 +121,3 @@ brew install --cask flutter
 ```bash
 brew install gcc
 ```
-
-
-## 내 맥에 한 번에 다 설치하기
-<aside>
- 이 명령어는 오롯이 필자의 환경 셋팅을 한 번에 하기 위한 명령어 모음집입니다.
-</aside>
