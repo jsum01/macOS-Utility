@@ -42,6 +42,8 @@ mas search kakaotalk
 mas install {App ID}
 ```
 
+---
+
 ## 2. 기기 관리
 ### 2-1. CPU 상태 확인
 RunCat: https://apps.apple.com/kr/app/runcat/id1429033973?mt=12
@@ -81,6 +83,8 @@ brew install --cask cleanmymac
   ```bash
   brew install --cask tiles
   ```
+
+---
 
 ## 4. Development Environments
 ### 4-1. IDE
@@ -122,7 +126,48 @@ brew install --cask flutter
 brew install gcc
 ```
 
-## 5. 기기변경을 했을 때, 데이터 전송은 어떻게 할까?
+---
+
+## 5. 한 번에 설치하기 - 명령어 모음
+
+### 필수 패키지 및 앱 설치 (Homebrew 기반)
+
+1. Homebrew 설치
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" xcode-select --install
+```
+
+2. Homebrew 기본 패키지 설치
+
+```
+brew install wget gcc mas node react-native-cli
+```
+
+3. Homebrew Cask를 이용한 앱 설치
+
+```
+# 설치항목: Google, Iterm2, Rectangle, titles, aldente, cleanMyMac, Visual-Studio-Code, IntelliJ-idea, Pycharm, Android-Studio, Flutter, Karabiner-elements
+brew install --cask google-chrome iterm2 rectangle tiles aldente cleanmymac visual-studio-code intellij-idea pycharm android-studio flutter karabiner-elements
+```
+
+### 앱스토어 앱 설치 (mas 활용)
+
+1. mas 설치
+```
+brew install mas
+```
+
+2. 앱스토어 앱 설치 (예: RunCat, HotKey)
+
+```
+mas install 1429033973 # RunCat
+mas install 975890633  # HotKey
+```
+
+---
+
+## 6. 기기변경을 했을 때, 데이터 전송은 어떻게 할까?
 
 ### Windows to Mac 마이그레이션
 
