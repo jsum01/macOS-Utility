@@ -132,35 +132,23 @@ brew install gcc
 
 ### 필수 패키지 및 앱 설치 (Homebrew 기반)
 
-1. Homebrew 설치
-
 ```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" xcode-select --install
-```
-
-2. Homebrew 기본 패키지 설치
-
-```
+# 1. Homebrew 설치
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+xcode-select --install
+# 2. Homebrew 기본 패키지 설치
 brew install wget gcc mas node react-native-cli
-```
-
-3. Homebrew Cask를 이용한 앱 설치
-
-```
+# 3. Homebrew Cask를 이용한 앱 설치
 # 설치항목: Google, Iterm2, Rectangle, titles, aldente, cleanMyMac, Visual-Studio-Code, IntelliJ-idea, Pycharm, Android-Studio, Flutter, Karabiner-elements
 brew install --cask google-chrome iterm2 rectangle tiles aldente cleanmymac visual-studio-code intellij-idea pycharm android-studio flutter karabiner-elements
 ```
 
 ### 앱스토어 앱 설치 (mas 활용)
 
-1. mas 설치
 ```
+# 1. mas 설치
 brew install mas
-```
-
-2. 앱스토어 앱 설치 (예: RunCat, HotKey)
-
-```
+# 2. 앱스토어 앱 설치 (예: RunCat, HotKey)
 mas install 1429033973 # RunCat
 mas install 975890633  # HotKey
 ```
