@@ -9,6 +9,11 @@
 ```bash
 xcode-select --install
 ```
+```
+    echo >> /Users/duit/.zprofile
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/duit/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+```
 
 ```bash
  brew install wget
