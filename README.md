@@ -155,13 +155,13 @@ brew services info mysql
 ## 터미널 꾸미기
 
 터미널 꾸미기는 잘 정리된 블로그가 너무 많기에 언급만 하겠다.
-### zsh, oh-my-zsh 설치 및 셋팅 [링크(클릭)](https://kikit-study.tistory.com/entry/%EB%A7%A5OS-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EC%85%8B%ED%8C%85%ED%95%98%EA%B8%B0homebrew-zsh-oh-my-zsh-iterm2)
+### 1. zsh, oh-my-zsh 설치 및 셋팅 [링크(클릭)](https://kikit-study.tistory.com/entry/%EB%A7%A5OS-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EC%85%8B%ED%8C%85%ED%95%98%EA%B8%B0homebrew-zsh-oh-my-zsh-iterm2)
 
 ---
 
 ## 한 번에 설치하기 - 명령어 모음
 
-### 필수 패키지 및 앱 설치 (Homebrew 기반)
+### 1. 필수 패키지 및 앱 설치 (Homebrew 기반)
 
 ```
 # 1. Homebrew 설치
@@ -174,7 +174,7 @@ brew install wget gcc mas node react-native-cli
 brew install --cask google-chrome iterm2 rectangle tiles aldente cleanmymac visual-studio-code intellij-idea pycharm android-studio flutter karabiner-elements
 ```
 
-### 앱스토어 앱 설치 (mas 활용)
+### 2. 앱스토어 앱 설치 (mas 활용)
 
 ```
 # 1. mas 설치
@@ -188,21 +188,21 @@ mas install 975890633  # HotKey
 
 ## 기기변경을 했을 때, 데이터 전송은 어떻게 할까?
 
-### Windows to Mac 마이그레이션
+### [Case 1] Windows to Mac 마이그레이션
 
-1. Windows와 Mac, 두 기기의 소프트웨어 버전이 모두 최신 버전인지 확인
-2. 동일 Wifi 연결 or LAN 선으로 서로 연결
-3. 디스크 검사를 통해 두 기기 모두 하드 드라이브에 문제가 없는지 확인
-   (1) CMD 실행
-   (2) `chkdsk` (Enter)
-   (3) (2번 과정에서 문제가 있다고 출련된다면) `chkdsk dreve:/c`를 입력해서 해결
-4. [Windows 기기에서] 애플 홈페이지 접속 - Windows용 마이그레이션 프로그램 다운로드
-5. [Mac 기기에서] 첫 설정이라면 마이그레이션 지원이라는 탭이 있어서 쉽게 하시겠지만, 이미 설정 단계를 넘어갔다면 메뉴 - 유틸리티 - 마이그레이션 지원을 실행
-6. 사용가능한 컴퓨터 목록에서 윈도우 PC를 선택 - 동일한 보안 코드가 나오는지 확인한 후 [계속]버튼 클릭
-7. 이동할 데이터 선택(기다림의 시간 ^.^)
+    1. Windows와 Mac, 두 기기의 소프트웨어 버전이 모두 최신 버전인지 확인
+    2. 동일 Wifi 연결 or LAN 선으로 서로 연결
+    3. 디스크 검사를 통해 두 기기 모두 하드 드라이브에 문제가 없는지 확인
+       (1) CMD 실행
+       (2) `chkdsk` (Enter)
+       (3) (2번 과정에서 문제가 있다고 출련된다면) `chkdsk dreve:/c`를 입력해서 해결
+    4. [Windows 기기에서] 애플 홈페이지 접속 - Windows용 마이그레이션 프로그램 다운로드
+    5. [Mac 기기에서] 첫 설정이라면 마이그레이션 지원이라는 탭이 있어서 쉽게 하시겠지만, 이미 설정 단계를 넘어갔다면 메뉴 - 유틸리티 - 마이그레이션 지원을 실행
+    6. 사용가능한 컴퓨터 목록에서 윈도우 PC를 선택 - 동일한 보안 코드가 나오는지 확인한 후 [계속]버튼 클릭
+    7. 이동할 데이터 선택(기다림의 시간 ^.^)
 
 
-### Mac to Mac 마이그레이션
+### [Case 2] Mac to Mac 마이그레이션
 
 1. 두 Mac이 모두 최신 macOS 버전인지 확인
 2. 두 기기를 동일한 네트워크(Wifi or LAN)로 연결
@@ -211,14 +211,14 @@ mas install 975890633  # HotKey
 5. 사용할 네트워크 선택 → 기존 Mac 선택 후 동일 보안 코드 확인 → [계속] 클릭
 6. 이동할 데이터 선택 → 이동 시작! (기다림의 미학 필요!)
 
-### 외장 하드 드라이브 활용
+### [Case 3] 외장 하드 드라이브 활용
 
 1. [기존 기기에서] 외장 하드 드라이브 연결 → 중요한 데이터 복사
 2. 외장 드라이브를 새로운 기기에 연결
 3. 복사한 데이터를 새 Mac으로 옮기기
    추가적으로, 애플 타임머신 백업 기능을 사용해도 좋음!
 
-### iCLoud에서 내려받기
+### [Case 4] iCLoud에서 내려받기
 
 추천하는 방법은 아니다. 기존 기기에서 iCloud에 올리는 데에도 시간이 오래 걸린다.
 심지어 새로운 Mac에서 iCloud로부터 내려받는 것도 한세월이니...
