@@ -22,6 +22,7 @@ xcode-select --install
 ### 1-2. Homebrew Cask
 앱스토어에 없는 프로그램을 brew를 통해 설치 가능함
 
+그렇다면 cask라는 것은 무엇일까요? 
 **1-2-1 cask 설치하기**
 ```bash
 brew install cask
@@ -197,3 +198,20 @@ mas install 975890633  # HotKey
 추천하는 방법은 아니다. 기존 기기에서 iCloud에 올리는 데에도 시간이 오래 걸린다.
 심지어 새로운 Mac에서 iCloud로부터 내려받는 것도 한세월이니...
 기기를 미리 팔아야 하는 상황이라 iCloud에 백업해놓는 경우가 아니라면 정말 비추천한다.(진짜 느리다...)
+
+## 맥 한/영 전환 딜레이 해결
+
+맥에서는 한/영 전환이 느리다.
+
+왜냐..?
+맥에서는 CapsLock이라는 하나의 키가 두 가지 역할을 하기 때문이다.
+(한/영 전환, 대문자 전환)
+
+때문에 이 현상을 해결하기 위해서는 따로 설정이 필요하다.
+
+우선, Kanabiner-Elements를 설치한다.
+```
+brew install karabiner-elements
+```
+
+[작성 예정...]
