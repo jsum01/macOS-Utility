@@ -144,7 +144,14 @@ brew install gcc
 
 ---
 
-## 5. 한 번에 설치하기 - 명령어 모음
+## 터미널 꾸미기
+
+터미널 꾸미기는 잘 정리된 블로그가 너무 많기에 언급만 하겠다.
+### zsh, oh-my-zsh 설치 및 셋팅 [링크(클릭)](!https://kikit-study.tistory.com/entry/%EB%A7%A5OS-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EC%85%8B%ED%8C%85%ED%95%98%EA%B8%B0homebrew-zsh-oh-my-zsh-iterm2)
+
+---
+
+## 한 번에 설치하기 - 명령어 모음
 
 ### 필수 패키지 및 앱 설치 (Homebrew 기반)
 
@@ -171,7 +178,7 @@ mas install 975890633  # HotKey
 
 ---
 
-## 6. 기기변경을 했을 때, 데이터 전송은 어떻게 할까?
+## 기기변경을 했을 때, 데이터 전송은 어떻게 할까?
 
 ### Windows to Mac 마이그레이션
 
