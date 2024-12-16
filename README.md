@@ -141,12 +141,12 @@ brew install mysql
 ``` 
 brew services start mysql 
 ```
-<img src="https://github.com/user-attachments/assets/142f3251-6bbe-4e5e-8387-baac83435606" alt="brew services start mysql">
+<img src="https://github.com/user-attachments/assets/74825f93-1c1d-4f7f-83c6-f2c5339ab6e8" alt="brew services start mysql">
 
 ``` 
 brew services info mysql 
 ```
-<img src="" alt="brew services info mysql">
+<img src="https://github.com/user-attachments/assets/e23b4973-5926-4689-b560-068e66f3b8c3" alt="brew services info mysql">
 
 
 
@@ -204,25 +204,25 @@ mas install 975890633  # HotKey
 
 ### [Case 2] Mac to Mac 마이그레이션
 
-1. 두 Mac이 모두 최신 macOS 버전인지 확인
-2. 두 기기를 동일한 네트워크(Wifi or LAN)로 연결
-3. [기존 Mac에서] 시스템 설정 → 공유 → "파일 공유" 활성화
-4. [새 Mac에서] 초기 설정 진행 시 "마이그레이션 지원" 실행 (이미 설정을 마쳤다면 유틸리티에서 "마이그레이션 지원" 실행)
-5. 사용할 네트워크 선택 → 기존 Mac 선택 후 동일 보안 코드 확인 → [계속] 클릭
-6. 이동할 데이터 선택 → 이동 시작! (기다림의 미학 필요!)
+    1. 두 Mac이 모두 최신 macOS 버전인지 확인
+    2. 두 기기를 동일한 네트워크(Wifi or LAN)로 연결
+    3. [기존 Mac에서] 시스템 설정 → 공유 → "파일 공유" 활성화
+    4. [새 Mac에서] 초기 설정 진행 시 "마이그레이션 지원" 실행 (이미 설정을 마쳤다면 유틸리티에서 "마이그레이션 지원" 실행)
+    5. 사용할 네트워크 선택 → 기존 Mac 선택 후 동일 보안 코드 확인 → [계속] 클릭
+    6. 이동할 데이터 선택 → 이동 시작! (기다림의 미학 필요!)
 
 ### [Case 3] 외장 하드 드라이브 활용
 
-1. [기존 기기에서] 외장 하드 드라이브 연결 → 중요한 데이터 복사
-2. 외장 드라이브를 새로운 기기에 연결
-3. 복사한 데이터를 새 Mac으로 옮기기
-   추가적으로, 애플 타임머신 백업 기능을 사용해도 좋음!
+    1. [기존 기기에서] 외장 하드 드라이브 연결 → 중요한 데이터 복사
+    2. 외장 드라이브를 새로운 기기에 연결
+    3. 복사한 데이터를 새 Mac으로 옮기기
+       추가적으로, 애플 타임머신 백업 기능을 사용해도 좋음!
 
 ### [Case 4] iCLoud에서 내려받기
 
-추천하는 방법은 아니다. 기존 기기에서 iCloud에 올리는 데에도 시간이 오래 걸린다.
-심지어 새로운 Mac에서 iCloud로부터 내려받는 것도 한세월이니...
-기기를 미리 팔아야 하는 상황이라 iCloud에 백업해놓는 경우가 아니라면 정말 비추천한다.(진짜 느리다...)
+    추천하는 방법은 아니다. 기존 기기에서 iCloud에 올리는 데에도 시간이 오래 걸린다.
+    심지어 새로운 Mac에서 iCloud로부터 내려받는 것도 한세월이니...
+    기기를 미리 팔아야 하는 상황이라 iCloud에 백업해놓는 경우가 아니라면 정말 비추천한다.(진짜 느리다...)
 
 ## 맥 한/영 전환 딜레이 해결
 
