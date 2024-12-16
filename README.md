@@ -137,10 +137,12 @@ brew install gcc
 brew install mysql
 ```
 <img src="https://github.com/user-attachments/assets/56f254fe-4abd-49af-a8a1-69855cecf5f2" alt="brew install mysql">
+
 ``` 
 brew services start mysql 
 ```
 <img src="https://github.com/user-attachments/assets/142f3251-6bbe-4e5e-8387-baac83435606" alt="brew services start mysql">
+
 ``` 
 brew services info mysql 
 ```
