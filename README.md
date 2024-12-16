@@ -155,7 +155,7 @@ brew services info mysql
 ## 터미널 꾸미기
 
 터미널 꾸미기는 잘 정리된 블로그가 너무 많기에 언급만 하겠다.
-### zsh, oh-my-zsh 설치 및 셋팅 [링크(클릭)](!https://kikit-study.tistory.com/entry/%EB%A7%A5OS-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EC%85%8B%ED%8C%85%ED%95%98%EA%B8%B0homebrew-zsh-oh-my-zsh-iterm2)
+### zsh, oh-my-zsh 설치 및 셋팅 [링크(클릭)](https://kikit-study.tistory.com/entry/%EB%A7%A5OS-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EC%85%8B%ED%8C%85%ED%95%98%EA%B8%B0homebrew-zsh-oh-my-zsh-iterm2)
 
 ---
 
