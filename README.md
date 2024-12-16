@@ -133,20 +133,23 @@ brew install gcc
 ```
 ### 4-3. Database
 **4-3-1 MySQL**
-``` 
-brew install mysql
-```
-<img src="https://github.com/user-attachments/assets/56f254fe-4abd-49af-a8a1-69855cecf5f2" alt="brew install mysql">
+1. brew를 사용하여 MySQL 설치하기
+    ``` 
+    brew install mysql
+    ```
+    <img src="https://github.com/user-attachments/assets/56f254fe-4abd-49af-a8a1-69855cecf5f2" alt="brew install mysql">
 
-``` 
-brew services start mysql 
-```
-<img src="https://github.com/user-attachments/assets/74825f93-1c1d-4f7f-83c6-f2c5339ab6e8" alt="brew services start mysql">
+2. brew를 사용하여 MySQL 실행하기
+    ``` 
+    brew services start mysql 
+    ```
+    <img src="https://github.com/user-attachments/assets/74825f93-1c1d-4f7f-83c6-f2c5339ab6e8" alt="brew services start mysql">
 
-``` 
-brew services info mysql 
-```
-<img src="https://github.com/user-attachments/assets/e23b4973-5926-4689-b560-068e66f3b8c3" alt="brew services info mysql">
+3. brew를 사용하여 MySQL 동작 상태 확인하기
+    ``` 
+    brew services info mysql 
+    ```
+    <img src="https://github.com/user-attachments/assets/e23b4973-5926-4689-b560-068e66f3b8c3" alt="brew services info mysql">
 
 
 
