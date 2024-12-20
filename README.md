@@ -151,7 +151,12 @@ brew install gcc
     ```
     <img src="https://github.com/user-attachments/assets/e23b4973-5926-4689-b560-068e66f3b8c3" alt="brew services info mysql">
 
-
+***MongoDB***
+1. brew를 사용하여 MongoDB, MongoDB Compass 설치하기
+    ```
+    brew install --cask gcollazo-mongodb
+    brew install --caks mongodb-compass
+    ```
 
 ---
 
